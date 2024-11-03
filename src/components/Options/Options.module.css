@@ -9,8 +9,6 @@ button {
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
-  /* border: none; */
-  /* border-radius: 1px black; */
   color: black;
   font-weight: normal;
   border: 1px solid black;
@@ -20,7 +18,7 @@ button {
   background-color: lightgray; 
 }
 
-.good:hover {
+.good:hover, :focus {
   background-color: darkgray;
 }
 
