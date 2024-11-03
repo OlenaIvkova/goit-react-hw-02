@@ -6,11 +6,12 @@
 .cafeName {
   font-size: 2em;
   font-weight: bold;
-  color: #5b3a2d;
+  color: black;
   margin: 0;
+  text-align: left;
 }
 
 .description {
   font-size: 1.2em;
-  color: #333;
+  color: black;
 }

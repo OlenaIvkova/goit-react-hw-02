@@ -1,7 +1,7 @@
 .options {
   display: flex;
   gap: 10px;
-  justify-content: center;
+  justify-content: left;
   margin-top: 10px;
 }
 
@@ -9,24 +9,41 @@ button {
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
+  /* border: none; */
+  /* border-radius: 1px black; */
+  color: black;
+  font-weight: normal;
+  border: 1px solid black;
 }
 
 .good {
-  background-color: #4caf50; /* зелений */
+  background-color: lightgray; 
+}
+
+.good:hover {
+  background-color: darkgray;
 }
 
 .neutral {
-  background-color: #ffc107; /* жовтий */
+  background-color: lightgray; 
+}
+
+.neutral:hover {
+  background-color: darkgray;
 }
 
 .bad {
-  background-color: #f44336; /* червоний */
+  background-color: lightgray; 
+}
+
+.bad:hover {
+  background-color: darkgray;
 }
 
 .reset {
-  background-color: #9e9e9e; /* сірий */
+  background-color: lightgray; 
+}
+
+.reset:hover {
+  background-color: darkgray;
 }
