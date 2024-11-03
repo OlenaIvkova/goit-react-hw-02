@@ -1,0 +1,32 @@
+.options {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.good {
+  background-color: #4caf50; /* зелений */
+}
+
+.neutral {
+  background-color: #ffc107; /* жовтий */
+}
+
+.bad {
+  background-color: #f44336; /* червоний */
+}
+
+.reset {
+  background-color: #9e9e9e; /* сірий */
+}
